@@ -1,0 +1,48 @@
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+}
+
+.user-selection {
+  display: flex;
+  justify-content: center;
+}
+
+.game-btn {
+  border: none;
+  font-size: 4rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.game-btn:hover {
+  transform: scale(1.2);
+  text-shadow: 5px 5px 2px #dfdfdf;
+}
+
+.game-btn:active {
+  transform: scale(0.9);
+}
+
+.result-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.result {
+  font-size: 1rem;
+}
+
+.selection {
+  font-size: 3rem;
+  opacity: 0.3;
+}
+
+.selection.winner {
+  opacity: 1;
+}
